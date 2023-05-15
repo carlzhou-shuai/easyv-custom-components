@@ -1,0 +1,67 @@
+{
+  "base": {
+    "name": "卡片走马灯",
+    "module_name": "easyv_card_carousel",
+    "version": "1.0.0",
+    "show": 1
+  },
+  "width": 200,
+  "height": 70,
+  "configuration": [
+    {
+      "name": "max",
+      "displayName": "最大展示数量",
+      "type": "number",
+      "value": "4",
+      "config":{
+        "min":1,
+        "max":10
+      }
+    },
+    {
+      "name": "series",
+      "displayName": "展示数据",
+      "type": "array",
+      "value": [
+          {
+              "name": "child",
+              "displayName": "卡片",
+              "value": [
+                  {
+                      "type": "input",
+                      "name": "content",
+                      "displayName": "文本",
+                      "value": "文本"
+                  },
+                  {
+                      "type": "input",
+                      "name": "keyCode",
+                      "displayName": "关键字",
+                      "value": "关键字"
+                  }
+              ]
+          }
+      ],
+      "config": {
+          "template":   {
+            "name": "child",
+            "displayName": "卡片",
+            "value": [
+                {
+                    "type": "input",
+                    "name": "input",
+                    "displayName": "文本",
+                    "value": "文本"
+                },
+                {
+                    "type": "input",
+                    "name": "input",
+                    "displayName": "关键字",
+                    "value": "关键字"
+                }
+            ]
+        }
+      }
+  }
+  ]
+}
