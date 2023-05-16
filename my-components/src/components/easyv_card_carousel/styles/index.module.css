@@ -1,16 +1,32 @@
-.title {
-  color: skyblue;
-  
+.my-carousel{
+  height: 100%;
 }
-
-.ant-carousel .slick-slide {
-  text-align: center;
-  height: 160px;
-  line-height: 160px;
-  background: #364d79;
-  overflow: hidden;
+.my-carousel-page{
+  display: flex !important;
 }
-
-.ant-carousel .slick-slide h3 {
+.my-carousel-page-box{
+  border:1px solid skyblue;
+  padding:20px;
   color: #fff;
+  margin: 20px;
+  width: 25%;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+}
+.my-carousel-page-box-text{
+  overflow: hidden;
+  height: 100%;
+}
+.my-carousel-page-box::after{
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: skyblue;
+  display: block;
+  position: absolute;
+  left: -4px;
+  top: 50%;
+  transform: translateY(-50%);
 }

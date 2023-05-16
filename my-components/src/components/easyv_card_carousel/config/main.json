@@ -5,8 +5,8 @@
     "version": "1.0.0",
     "show": 1
   },
-  "width": 200,
-  "height": 70,
+  "width": 1000,
+  "height": 100,
   "configuration": [
     {
       "name": "max",
@@ -31,12 +31,12 @@
                       "type": "input",
                       "name": "content",
                       "displayName": "文本",
-                      "value": "文本"
+                      "value": "文本关键字文本"
                   },
                   {
                       "type": "input",
                       "name": "keyCode",
-                      "displayName": "关键字",
+                      "displayName": "关键字(多个用,隔开)",
                       "value": "关键字"
                   }
               ]
@@ -51,12 +51,12 @@
                     "type": "input",
                     "name": "input",
                     "displayName": "文本",
-                    "value": "文本"
+                    "value": "文本关键字文本"
                 },
                 {
                     "type": "input",
                     "name": "input",
-                    "displayName": "关键字",
+                    "displayName": "关键字(多个用,隔开)",
                     "value": "关键字"
                 }
             ]
