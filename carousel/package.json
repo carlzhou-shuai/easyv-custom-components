@@ -1,0 +1,21 @@
+{
+  "name": "carousel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Easy[V] development environment",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "start": "easyv dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "easyv": {
+    "components": "src/components",
+    "builder": "vue-builder"
+  },
+  "dependencies": {
+    "swiper": "^6.8.4"
+  }
+}

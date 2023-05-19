@@ -1,0 +1,121 @@
+{
+  "base": {
+    "name": "旋转木马",
+    "module_name": "carousel2",
+    "version": "1.0.0",
+    "show": 1
+  },
+  "width": 1000,
+  "height": 120,
+  "configuration": [
+    {
+      "name": "max",
+      "displayName": "最大展示数量",
+      "type": "number",
+      "value": "3",
+      "config":{
+        "min":1,
+        "max":10
+      }
+    },
+    {
+      "name": "series",
+      "displayName": "展示数据",
+      "type": "array",
+      "value": [
+          {
+              "name": "child1",
+              "displayName": "卡片",
+              "value": [
+                  {
+                      "type": "input",
+                      "name": "content",
+                      "displayName": "文本",
+                      "value": "文本关键字文本1"
+                  },
+                  {
+                      "type": "input",
+                      "name": "keyCode",
+                      "displayName": "关键字(多个用,隔开)",
+                      "value": "关键字"
+                  }
+              ]
+          },
+          {
+            "name": "child2",
+            "displayName": "卡片",
+            "value": [
+                {
+                    "type": "input",
+                    "name": "content",
+                    "displayName": "文本",
+                    "value": "文本关键字文本2"
+                },
+                {
+                    "type": "input",
+                    "name": "keyCode",
+                    "displayName": "关键字(多个用,隔开)",
+                    "value": "关键字"
+                }
+            ]
+        },
+        {
+          "name": "child3",
+          "displayName": "卡片",
+          "value": [
+              {
+                  "type": "input",
+                  "name": "content",
+                  "displayName": "文本",
+                  "value": "文本关键字文本3"
+              },
+              {
+                  "type": "input",
+                  "name": "keyCode",
+                  "displayName": "关键字(多个用,隔开)",
+                  "value": "关键字"
+              }
+          ]
+      },
+      {
+        "name": "child4",
+        "displayName": "卡片",
+        "value": [
+            {
+                "type": "input",
+                "name": "content",
+                "displayName": "文本",
+                "value": "文本关键字文本4"
+            },
+            {
+                "type": "input",
+                "name": "keyCode",
+                "displayName": "关键字(多个用,隔开)",
+                "value": "关键字"
+            }
+        ]
+    }
+      ],
+      "config": {
+          "template":   {
+            "name": "child",
+            "displayName": "卡片",
+            "value": [
+                {
+                    "type": "input",
+                    "name": "input",
+                    "displayName": "文本",
+                    "value": "文本关键字文本"
+                },
+                {
+                    "type": "input",
+                    "name": "input",
+                    "displayName": "关键字(多个用,隔开)",
+                    "value": "关键字"
+                }
+            ]
+        }
+      }
+  }
+  ]
+}

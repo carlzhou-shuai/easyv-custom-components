@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "text": "React16 演示模版"
+    }
+  ],
+  "fields": [
+    {
+      "name": "text",
+      "value": "text",
+      "desc": "文本"
+    }
+  ]
+}

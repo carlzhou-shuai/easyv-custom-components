@@ -1,0 +1,10 @@
+.backgroudImg{
+  background-image: url(../assets/card_background.png);
+  width: 302px;
+  height: 87px;
+  display: block;
+  text-align: left;
+  padding: 20px;
+  overflow: hidden;
+}
+
