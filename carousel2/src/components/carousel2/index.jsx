@@ -62,7 +62,6 @@ export default function (props) {
             },[])
           }
         </div>
-        console.log(i.html,'html');
   })
   useEffect(() => {
     mySwiperRef.current && mySwiperRef.current.destroy()
@@ -76,18 +75,18 @@ export default function (props) {
           type: 'bullets',
       }
     });
-  },[props])
+  }, [series])
   /**
    * 固定格式: 返回的div必须有classNameName/id属性
    */
   return (
     <div className="__easyv-component" style={styles} id={id}>
-       <div className="swiper-container"  style={{height,width}} ref={() => {}}>
+       <div className="swiper-container" >
         <div className="swiper-wrapper">
           {
             pages.map((v,i) => {
               return <div className="swiper-slide" key={i}>
-                <span className={css['backgroudImg']}>
+                <span className={css['backgroud-img']}>
                   {v.html}
                 </span>
               </div>

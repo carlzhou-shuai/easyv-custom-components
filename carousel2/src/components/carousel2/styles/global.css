@@ -4,3 +4,7 @@
 .swiper-pagination-bullet-active{
   background-color: #2491f7;
 }
+.swiper-container{
+  height: 100%;
+  width: 100%;
+}
