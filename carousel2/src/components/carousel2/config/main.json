@@ -31,13 +31,13 @@
                       "type": "input",
                       "name": "content",
                       "displayName": "文本",
-                      "value": "文本关键字文本1"
+                      "value": "新增发布长三角区域债券指数、粤港澳大湾区债券指数等4种区域债券指数，助力区域发展的国家战略"
                   },
                   {
                       "type": "input",
                       "name": "keyCode",
                       "displayName": "关键字(多个用,隔开)",
-                      "value": "关键字"
+                      "value": "长三角区域债券指数,粤港澳大湾区债券指数"
                   }
               ]
           },
@@ -49,13 +49,13 @@
                     "type": "input",
                     "name": "content",
                     "displayName": "文本",
-                    "value": "文本关键字文本2"
+                    "value": "发布银行间高等级碳中和债券指数等3种绿色债券指数，贯彻落实国家2030碳达峰、2060碳中和的战略部署"
                 },
                 {
                     "type": "input",
                     "name": "keyCode",
                     "displayName": "关键字(多个用,隔开)",
-                    "value": "关键字"
+                    "value": "银行间高等级碳中和债券指数,2030碳达峰、2060碳中和"
                 }
             ]
         },
@@ -67,13 +67,13 @@
                   "type": "input",
                   "name": "content",
                   "displayName": "文本",
-                  "value": "文本关键字文本3"
+                  "value": "发布ESG高等级信用债指数，践行ESG投资理念"
               },
               {
                   "type": "input",
                   "name": "keyCode",
                   "displayName": "关键字(多个用,隔开)",
-                  "value": "关键字"
+                  "value": "ESG高等级信用债指数"
               }
           ]
       },
@@ -85,7 +85,43 @@
                 "type": "input",
                 "name": "content",
                 "displayName": "文本",
-                "value": "文本关键字文本4"
+                "value": "发布外币对掉期曲线，丰富外汇掉期曲线产品序列"
+            },
+            {
+                "type": "input",
+                "name": "keyCode",
+                "displayName": "关键字(多个用,隔开)",
+                "value": "外币对掉期曲线"
+            }
+        ]
+    },
+    {
+        "name": "child5",
+        "displayName": "卡片",
+        "value": [
+            {
+                "type": "input",
+                "name": "content",
+                "displayName": "文本",
+                "value": "调整CFETS人民币汇率指数、SDR货币篮子人民币汇率指数货币篮子权重，进一步增强人民币汇率指数货币篮子代表性"
+            },
+            {
+                "type": "input",
+                "name": "keyCode",
+                "displayName": "关键字(多个用,隔开)",
+                "value": "关键字"
+            }
+        ]
+    },
+    {
+        "name": "child5",
+        "displayName": "卡片",
+        "value": [
+            {
+                "type": "input",
+                "name": "content",
+                "displayName": "文本",
+                "value": "2022年12月30日，CFETS顺利成为通过中国证券投资基金业协会委托的行业专家评审程序的第三方估值基准服务机构"
             },
             {
                 "type": "input",
